@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn: "https://github.com/dareumHJ/img"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/cat.jpg"
+avatar: "https://github.com/dareumHJ/img/cat.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
