@@ -7,6 +7,7 @@ math: true
 toc: true
 author: dareumHJ
 pin: false
+comments: true
 description: Paper Review on "Optimal Ankle Compliance Regulation" | control, simulation, robotics, dynamics
 ---
 
