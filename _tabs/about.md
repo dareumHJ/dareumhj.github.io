@@ -6,7 +6,7 @@ comments: true
 toc: true
 ---
 
-# [** Dareum **](https://special-grip-6f7.notion.site/Seoyoung-Oh-2a6b295b15b4435bb7b945bb07a572ae)       
+# [** Dareum **]       
 안녕하세요, Dareum입니다.       
 Robotics와 관련된 다양한 내용들을 업로드합니다.      
 
