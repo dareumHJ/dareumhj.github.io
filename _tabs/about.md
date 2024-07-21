@@ -6,11 +6,9 @@ comments: true
 toc: true
 ---
 
-# [** Dareum **]       
 안녕하세요, Dareum입니다.       
 Robotics와 관련된 다양한 내용들을 업로드합니다.      
 
-&nbsp;
 &nbsp;
 &nbsp;
 
