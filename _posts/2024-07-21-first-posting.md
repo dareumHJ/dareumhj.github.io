@@ -11,4 +11,4 @@ comments: true
 description: Paper Review on "Optimal Ankle Compliance Regulation" | control, simulation, robotics, dynamics
 ---
 
-Paper Review입니다.
+# h2 <p align="center">이 텍스트는 가운데 정렬되어 있습니다.</p>
