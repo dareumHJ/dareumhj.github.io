@@ -79,7 +79,7 @@ $$\boldsymbol{\tau}_b^b = \boldsymbol{f_{\tau}}(\boldsymbol{\tau}_0, \boldsymbol
 
 또한, $$\boldsymbol{f}_i$$와 $$\boldsymbol{\tau}_i$$는 각각 i번째 레이어에 의한 힘과 토크 제어이다.
 
-각 함수 $$f_u$$와 $$\boldsymbol{f}_{\tau}$$에 대해, f_u는 rotation의 표현에 따라 그 표현이 달라질 수 있겠지만은, f_tau는 단순 선형 결합으로 생각할 수 있을 것이다....
+각 함수 $$f_u$$와 $$\boldsymbol{f}_{\tau}$$에 대해, $$f_u$$는 rotation의 표현에 따라 그 표현이 달라질 수 있겠지만은, $$\boldsymbol{f}_{\tau}$$는 단순 선형 결합으로 생각할 수 있을 것이다....
 
 #### L1: Battery Movement Compensation
 
