@@ -123,7 +123,7 @@ L1에서 언급된 DCS의 한계는 배터리가 실제로 grasped load와 arm c
 
 $$\boldsymbol{f}_2 = \boldsymbol{0_3}$$
 
-$$\boldsymbol{\tau}_2=\boldsymbol{E}_2(m_A\boldsymbol{p}_A^b + m_B\boldsymbol{p}_B^b)$$
+$$\boldsymbol{\tau}_2=\boldsymbol{E}_2(m_A\boldsymbol{p}_A^b + m_B\boldsymbol{p}_B^b)g$$
 
 2.  두 번째 단계는 low level RPY 제어기, 각속도 제어기, 그리고 힘 및 토크 제한으로 이루어져 있다. Static Compensation(SC) 모듈은 1번에서의 식을 이용해서 토크를 계산하고, 힘과 토크를 출력하는 각속도 제어기에 injected된다.
 
