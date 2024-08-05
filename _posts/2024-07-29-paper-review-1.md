@@ -19,10 +19,10 @@ description: Review on a multilayer control for multirotor UAVs equipped with a 
 ### **1. Abstract**
 Moving manipulator의 존재를 고려하여 aerial platform을 제어하는 것이 주요 목적
 세 계층...
-첫 번째 → robot arm의 정적 균형을 맞추기 위한 움직이틑 배터리가 고안됨..
-두 번째 → 첫 번째 계층의 mechanical limitation을 극복하기 위해 UAV에 미치는 arm static effects의 잔여량을 계산하고, 제어 추력과 토크를 이용해 보상.
-세 번째 → UAV에 작용하는 외력 및 모먼트를 추정하고 이 추정값을 컨트롤러에 피드백하여 무시된 공기역학적 효과와 팔의 동역학을 보상.
-이렇게 제안된 architecture의 성능 또한 실험적으로 평가되었다.
+첫 번째 → robot arm의 정적 균형을 맞추기 위한 움직이틑 배터리가 고안됨. <br/>
+두 번째 → 첫 번째 계층의 mechanical limitation을 극복하기 위해 UAV에 미치는 arm static effects의 잔여량을 계산하고, 제어 추력과 토크를 이용해 보상. <br/>
+세 번째 → UAV에 작용하는 외력 및 모먼트를 추정하고 이 추정값을 컨트롤러에 피드백하여 무시된 공기역학적 효과와 팔의 동역학을 보상. <br/>
+이렇게 제안된 architecture의 성능 또한 실험적으로 평가되었다. <br/>
 
 > UAV = Unmanned Aerial Vehicle
 > UAV = AV = multirotor / robotic arm = arm = manipulator
