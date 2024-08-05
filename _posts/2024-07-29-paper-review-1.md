@@ -148,6 +148,21 @@ $$\dot{\mathbf{\alpha}} = \begin{bmatrix} \mathbf{R}_b(\mathbf{\eta}_b) \left(u\
 $$\mathbf{r}(t) = \mathbf{K}_1 \left( \int^t_0{-\mathbf{r}(s) + \mathbf{K}_2 \left( \mathbf{\alpha}(s) - \int^t_0{\left( \begin{bmatrix} u\mathbf{R}_b(\mathbf{\eta}_b)\mathbf{e}_3 - m\mathbf{g}_b \\ \mathbf{\tau}^b_b - \mathbf{S}(\mathbf{\omega}^b_b)\mathbf{I}_b\mathbf{\omega}^b_b \end{bmatrix} + \mathbf{r}(s) \right) ds} \right) ds } \right)$$
 
 t는 시간, $$\mathbf{K}_1, \mathbf{K}_2 \in \mathbb{R}^{6 \times 6}$$는 각각 positive definite한 대각 gain 행렬이다. 
+(+ $$\mathbf{\alpha}(0) = \mathbf{r}(0) = \dot{\mathbf{r}}(0) = 0$$)
+<br/>
+
+이제 외력을 추정하기 위해 필요한 quantity는 다음과 같다.
+
+1.  비행체의 attitude인 $$\mathbf{R}(\cdot)$$ 과 angular velocity $$\mathbf{\omega}_b^b$$ (onboard IMU에서 제공)
+2.  commanded thrust $$u$$와 $$\mathbf{\tau}_b^b$$
+3.  선속도 $$\dot{\mathbf{p}}_b$$ (vision이나 GPS data로부터 추정)
+4.  비행체의 질량 $$m$$과 관성모멘트 $$\mathbf{I}_b$$
+
+다음은 3번째 layer에 대한 final contribution은 추정된 외부 힘 및 모멘트에 대한 제어기 피드백이다.
+
+$$\mathbf{f}_3 = -\mathbf{\overline{E}}_3\mathbf{r},$$
+
+$$\mathbf{\tau}_3 = -\mathbf{\underline{E}}_3\mathbf{r},$$
 
 
 ### **4. Experimental Validation**
