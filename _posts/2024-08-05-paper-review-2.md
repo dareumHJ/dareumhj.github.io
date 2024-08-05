@@ -1,6 +1,6 @@
 ---
 title: "Paper Review"
-date: 2024-07-29 12:00:00 +0900
+date: 2024-08-05 12:00:00 +0900
 categories: [Reviews, Robotics]
 tags: [control, simulation, robotics, dynamics]
 math: true
@@ -9,16 +9,16 @@ author: dareumHJ
 img_path: /assets/img/post_img
 pin: false
 comments: true
-description: Review on a multilayer control for multirotor UAVs equipped with a servo robot arm
+description: Review on Geometric Tracking Control of a Quadrotor UAV on SE(3)
 ---
 
-## **A multilayer control for multirotor UAVs equipped with a servo robot arm**
+## **Gemoetric Tracking Control of a Quadrotor UAV on SE(3)**
 
-**Authors**: F. Ruggiero, M.A. Trujillo, R. Cano, H. Ascorbe, A. Viguria, C. Per´ez, V. Lippiello, A. Ollero, and B. Siciliano
+**Authors**: Taeyoung Lee, Melvin Leok, and N. Harris McClamroch
 
 ### **1. Abstract**
 Moving manipulator의 존재를 고려하여 aerial platform을 제어하는 것이 주요 목적
-세 계층... <br/>
+세 계층...
 첫 번째 → robot arm의 정적 균형을 맞추기 위한 움직이틑 배터리가 고안됨. <br/>
 두 번째 → 첫 번째 계층의 mechanical limitation을 극복하기 위해 UAV에 미치는 arm static effects의 잔여량을 계산하고, 제어 추력과 토크를 이용해 보상. <br/>
 세 번째 → UAV에 작용하는 외력 및 모먼트를 추정하고 이 추정값을 컨트롤러에 피드백하여 무시된 공기역학적 효과와 팔의 동역학을 보상. <br/>
