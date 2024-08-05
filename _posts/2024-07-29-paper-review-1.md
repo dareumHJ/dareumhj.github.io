@@ -143,7 +143,7 @@ $$\boldsymbol{\alpha} = \begin{bmatrix} m\boldsymbol{I}_3 & \boldsymbol{O}_3 \\
 $$\dot{\boldsymbol{\alpha}} = \begin{bmatrix} \boldsymbol{R}_b(\boldsymbol{\eta}_b) \left(u\boldsymbol{e}_3 + \boldsymbol{f}^b_v\right) - m\boldsymbol{g}_b \\
 \boldsymbol{\tau}^b_b + \boldsymbol{\tau}^b_v - \boldsymbol{S}(\boldsymbol{\omega}^b_b)\boldsymbol{I}_b\boldsymbol{\omega}^b_b\end{bmatrix}$$
 
-추정된 generalized force를 $$\boldsymbol{r} = \begin{bmatrix} \boldsymbol{f}^T_b & {\boldsymbol{\tau}^b_v}^T \end{bmatrix}^T \in \mathbb{R}^6$$라고 두면, estimator는 다음과 같이 build할 수 있다.
+추정된 generalized force를 $$\boldsymbol{r} = \begin{bmatrix} {\boldsymbol{f}^b_v}^T & {\boldsymbol{\tau}^b_v}^T \end{bmatrix}^T \in \mathbb{R}^6$$라고 두면, estimator는 다음과 같이 build할 수 있다.
 
 $$\boldsymbol{r}(t) = \boldsymbol{K}_1 \left( \int^t_0{-\boldsymbol{r}(s) + \boldsymbol{K}_2 \left( \boldsymbol{\alpha}(s) - \int^t_0{\left( \begin{bmatrix} u\boldsymbol{R}_b(\boldsymbol{\eta}_b)\boldsymbol{e}_3 - m\boldsymbol{g}_b \\ \boldsymbol{\tau}^b_b - \boldsymbol{S}(\boldsymbol{\omega}^b_b)\boldsymbol{I}_b\boldsymbol{\omega}^b_b \end{bmatrix} + \boldsymbol{r}(s) \right) ds} \right) ds } \right)$$
 
