@@ -119,15 +119,15 @@ L1에서 언급된 DCS의 한계는 배터리가 실제로 grasped load와 arm c
 
 따라서, propeller 속도를 적절히 수정하기 위해 소프트웨어적인 보상이 필요하다. 
 
-1. 첫 단계는 platform의 geometric center에 대해 정적 momentum 평형을 수행하는 것이다... robotic arm이 task를 수행하는 동안 Platform이 hovering flying을 하고 있다고 생각하면, yaw 방향의 static torque는 무시할 수 있으므로, 식은 다음과 같다.
+1.  첫 단계는 platform의 geometric center에 대해 정적 momentum 평형을 수행하는 것이다... robotic arm이 task를 수행하는 동안 Platform이 hovering flying을 하고 있다고 생각하면, yaw 방향의 static torque는 무시할 수 있으므로, 식은 다음과 같다.
 
 $$\boldsymbol{f}_2 = \boldsymbol{0_3}$$
 
 $$\boldsymbol{\tau}_2=\boldsymbol{E}_2(m_A\boldsymbol{p}_A^b + m_B\boldsymbol{p}_B^b)$$
 
-2. 두 번째 단계는 low level RPY 제어기, 각속도 제어기, 그리고 힘 및 토크 제한으로 이루어져 있다. Static Compensation(SC) 모듈은 1번에서의 식을 이용해서 토크를 계산하고, 힘과 토크를 출력하는 각속도 제어기에 injected된다.
+2.  두 번째 단계는 low level RPY 제어기, 각속도 제어기, 그리고 힘 및 토크 제한으로 이루어져 있다. Static Compensation(SC) 모듈은 1번에서의 식을 이용해서 토크를 계산하고, 힘과 토크를 출력하는 각속도 제어기에 injected된다.
 
-이러한 제어 scheme은 DCS와 결합했을 대 매우 효과적인 것으로 알려져 있지만, 바람 같은 외부 섭동이 비행체에 영향을 주는 상황에서 load를 효과적으로 움직이기 위해 robotic arm이 공격적으로 움직일 수 있기에, 더 개선될 여지가 남아있다.
+이러한 제어 scheme은 DCS와 결합했을 때 매우 효과적인 것으로 알려져 있지만, 바람 같은 외부 섭동이 비행체에 영향을 주는 상황에서 load를 효과적으로 움직이기 위해 robotic arm이 공격적으로 움직일 수 있기에, 더 개선될 여지가 남아있다.
 
 #### L3: External Generalized Forces Estimation & Compensation
 
