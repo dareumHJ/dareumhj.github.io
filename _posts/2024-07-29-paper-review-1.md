@@ -40,7 +40,7 @@ multirotor에 가해지는 robotic arm의 영향은 외란(external disturbances
 
 "또한, moving battery라는 CoG의 움직임을 보상하는 새로운 방법을 제시하고," <br/>
 
-" UAV에 작용하는 일반 외력의 추정기에서, 각속도의 측정을 rotation의 표현에 덜 의존적이도록 하였다. " <br/>
+"UAV에 작용하는 일반 외력의 추정기에서, 각속도의 측정을 rotation의 표현에 덜 의존적이도록 하였다." <br/>
 
 이 multilayer 제어 시스템이란 게 abstract에서 언급한 세 개의 계층이고 여기에 항상 활성화되어 있는 multirotor에 대한 PID 제어기가 기본 layer로 들어간다.
 
