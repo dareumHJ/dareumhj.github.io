@@ -164,7 +164,7 @@ $$\mathbf{f}_3 = -\mathbf{\overline{E}}_3\mathbf{r},$$
 
 $$\mathbf{\tau}_3 = -\mathbf{\underline{E}}_3\mathbf{r},$$
 
+여기서 $$\mathbf{\overline{E}}_3$$와 $$\mathbf{\underline{E}}_3$$는 각각 $$\mathbf{r}$$의 첫 3개의 요소와 마지막 3개의 요소를 선택하는 matrix이다.
 
 ### **4. Experimental Validation**
 
-~ 대충 결과 ~
