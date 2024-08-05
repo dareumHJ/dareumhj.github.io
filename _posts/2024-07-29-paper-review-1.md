@@ -166,5 +166,5 @@ $$\boldsymbol{\tau}_3 = -\boldsymbol{\underline{E}}_3\boldsymbol{r},$$
 
 여기서 $$\boldsymbol{\overline{E}}_3$$와 $$\boldsymbol{\underline{E}}_3$$는 각각 $$\boldsymbol{r}$$의 첫 3개의 요소와 마지막 3개의 요소를 선택하는 matrix이다.
 
-### **4. Experimental Validation**
+### **5. Experimental Validation**
 
