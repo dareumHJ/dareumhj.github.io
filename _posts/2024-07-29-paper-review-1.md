@@ -119,7 +119,7 @@ L1에서 언급된 DCS의 한계는 배터리가 실제로 grasped load와 arm c
 
 따라서, propeller 속도를 적절히 수정하기 위해 소프트웨어적인 보상이 필요하다. 
 
-1.  첫 단계는 platform의 geometric center에 대해 정적 momentum 평형을 수행하는 것이다... robotic arm이 task를 수행하는 동안 Platform이 hovering flying을 하고 있다고 생각하면, yaw 방향의 static torque는 무시할 수 있으므로, 식은 다음과 같다.
+1.  첫 단계는 platform의 geometric center에 대해 정적 momentum 평형을 수행하는 것이다... robotic arm이 task를 수행하는 동안 Platform이 hovering flying을 하고 있다고 생각하면, yaw 방향의 static torque는 무시할 수 있으므로, 식은 다음과 같다. ($$\boldsymbol{E}_2 \in \mathbb{R}^{3\times3}$$는 3번째 element를 0으로 만드는 matrix)
 
 $$\boldsymbol{f}_2 = \boldsymbol{0_3}$$
 
@@ -168,3 +168,5 @@ $$\boldsymbol{\tau}_3 = -\boldsymbol{\underline{E}}_3\boldsymbol{r},$$
 
 ### **5. Experimental Validation**
 
+### **감상**
+제대로 해본 첫 논문 리딩이라 걱정했는데, 어려운 내용은 없었던 것 같다?
